@@ -15,6 +15,5 @@ jobs:
   
     - name: 'Run Azure CLI commands'
       run: |
-          az group create --location brazilsouth --resource-group myapp
           az group list
           pwd
