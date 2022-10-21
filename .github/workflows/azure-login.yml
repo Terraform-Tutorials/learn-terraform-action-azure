@@ -15,5 +15,6 @@ jobs:
   
     - name: 'Run Azure CLI commands'
       run: |
+          az group exists -n amaury1
           az group list
           pwd
